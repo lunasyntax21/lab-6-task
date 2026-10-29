@@ -1,0 +1,12 @@
+{
+  "name": "tailwind-store",
+  "version": "1.0.0",
+  "description": "Responsive e-commerce landing page built with a local Tailwind CSS setup",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
